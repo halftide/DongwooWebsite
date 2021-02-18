@@ -69,7 +69,7 @@ class Home extends Component {
             <div>
                 <center>
                         <div>Welcome to Zoo</div>
-                        <button onClick = {() =>this.Click(1)}>what animal gonna play</button>
+                        <button onClick = {() =>this.Click(1)}>what Monkey gonna play</button>
                         
                         <div>
                         <button onClick = {this.playGroundClick}>What poopgrounds is they want</button>
