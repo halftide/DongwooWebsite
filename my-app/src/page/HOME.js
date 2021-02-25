@@ -67,9 +67,10 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <center>Welcome to Bargain Gambling site. Free stuff monthly.</center>         
+                <center>Welcome to Bargain Gambling site. Free stuff monthly. 
+                    Go to Roulette page now!</center>         
 
-                <Roulette/  >                                                  
+                                                                 
             </div>
         );
     }

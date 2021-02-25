@@ -11,9 +11,9 @@ const navBar = () => {
                         </button>
                         <div class ="dropdown-content">
                             <a href="/"> Home</a>
-                            <a href="/page1"> Roulette</a>
-                            <a href="/page2">Page2</a>
-                            <a href="/page3">Page 3</a>
+                            <a href="/page1">Roulette</a>
+                            <a href="/page2">About You</a>
+                            <a href="/page3">Restricted Access</a>
                     </div>
             </div>
             </nav>

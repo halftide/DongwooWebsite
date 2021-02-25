@@ -5,10 +5,10 @@ class Page2 extends Component {
     render() {
         return (
            <>
-           <Roule/>
-           </>
+           
 
-    
+  <div> Page 2 </div>  
+  </>
         );
     }
 }
