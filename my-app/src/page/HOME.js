@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
  
-import Roule from '../roulette'
+import Roulette from '../roulette'
 
 
 class Home extends Component {
@@ -67,31 +67,9 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <center>
-                        <div>Welcome to Zoo</div>
-                        <button onClick = {() =>this.Click(1)}>what Monkey gonna play</button>
-                        
-                        <div>
-                        <button onClick = {this.playGroundClick}>What poopgrounds is they want</button>
-                        </div>
-                     
-                        <div>
-                        <button onClick = {this.favoriteFoodClick}>What favorite food</button>
-                        </div>
+                <center>Welcome to Bargain Gambling site. Free stuff monthly.</center>         
 
-                     <div style = {{fontSize : "45"}}>   
-                         {this.state.FavoriteAnimal}
-                     </div>
-
-                     <div style = {{fontSize : "45"}}>   
-                         {this.state.FavoriteFood}
-                     </div>
-
-                    <div style = {{fontsize : "45"}}>
-                        {this.state.FavoritePlayground}
-                        </div>
-                    <Roule/>
-                </center>                                                                                                        
+                <Roulette/  >                                                  
             </div>
         );
     }

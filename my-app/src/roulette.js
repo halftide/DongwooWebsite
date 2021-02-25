@@ -11,7 +11,7 @@ const data = [
   { option: 'P90 | Sand Spray', style: { backgroundColor: 'beige', textColor: 'black' } },
   { option: 'P90 | Sand Spray', style: { backgroundColor: 'beige', textColor: 'black' } },
   { option: 'P90 | Sand Spray', style: { backgroundColor: 'beige', textColor: 'black' } },
-  { option: '10', style: { backgroundColor: 'Hotpink', textColor: 'black' } },
+  { option: 'M4A4 | Hellfire', style: { backgroundColor: 'Hotpink', textColor: 'black' } },
 ]
  
 export default () => {
@@ -19,8 +19,22 @@ export default () => {
   const [prizeNumber, setPrizeNumber] = useState(0);
  
   const handleSpinClick = () => {
-    const newPrizeNumber = Math.floor(Math.random() * data.length)
-    setPrizeNumber(3)
+    //  0 - 9
+    var randomNumber = Math.floor(Math.random() * 100)
+    var newPrizeNumber = 0
+    console.log(randomNumber)
+    if (randomNumber < 80 ) {
+
+      newPrizeNumber = Math.floor(Math.random() * 7)
+    }
+
+    else {
+
+      newPrizeNumber =  8
+
+    }
+
+    setPrizeNumber(newPrizeNumber)
     setMustSpin(true)
   }
 
@@ -35,10 +49,10 @@ export default () => {
         data={data}
  
         onStopSpinning={() => {
-          setMustSpin(true)
+          setMustSpin(false)
         }}
       />
-      <button onClick={handleSpinClick}>SPIN</button>
+      <button onClick={handleSpinClick} style ={{color: "white", backgroundColor : "black" , width : "5%" ,border : "black"}}>SPIN</button>
       </center>
     </>
   )
