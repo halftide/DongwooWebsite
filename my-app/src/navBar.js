@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {Link} from 'react-router-dom'
 const navBar = () => {
     return (
         <div>
@@ -10,10 +10,10 @@ const navBar = () => {
                         <i class=" fa fa-caret-down"></i>
                         </button>
                         <div class ="dropdown-content">
-                            <a href="/"> Home</a>
-                            <a href="/page1">Roulette</a>
-                            <a href="/page2">About You</a>
-                            <a href="/page3">Restricted Access</a>
+                        <Link to = "/"> Home </Link>
+                        <Link to = "/page1">Roulette </Link>
+                        <Link to = "/page2">About You </Link>
+                        <Link to = "/page3">Restricted Access</Link>
                     </div>
             </div>
             </nav>

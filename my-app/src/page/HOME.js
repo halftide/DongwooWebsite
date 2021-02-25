@@ -68,10 +68,18 @@ class Home extends Component {
         return (
             <div>
                 <center>Welcome to Bargain Gambling site. Free stuff monthly. 
-                    Go to Roulette page now!</center>         
+                    Go to Roulette page now!
 
-                                                                 
+                <form class="box">
+                    <h1>Login</h1>
+                    <input type="text" name="" placeholder="Username"/>  
+                    <input type="password" name="" placeholder="Password"/>
+                    <button style={{backgroundColor:"#1289A7"}} type="submit" name="" value="Login">Login</button>
+                </form>  
+                </center>       
             </div>
+
+        
         );
     }
 }
