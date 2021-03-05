@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+javascript Note
+Class : It is a container which can have varibles(Data) and function (method), 
+To have class we also using const
+Varible : It is Data which assign value inside
+Function : It is a method to do particular task
+
+Some varible type : Using keyword let, var, const
+let a = 1
+var c = 3
+
+What kind varible types ?
+String ="Characters"
+Boolean = True/False
+Int = Numbers
+etc Double, Int32
+
+What is array?
+This is group of datas
+Animal = ["Pig", "Lion",]
+
